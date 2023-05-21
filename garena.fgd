@@ -1,0 +1,94 @@
+//wontairr
+
+@include "base.fgd" 
+
+@PointClass base( Targetname ) studio( "models/props_junk/sawblade001a.mdl" ) = garena_jumppad
+[
+	jumpheight(integer) : "Launch Height of Jumppad" : 500 : "How far the player is launched"
+	disablespeedchecks(integer) : "Disable Speed Checks" : 0 : "Disables the speed checks meant for best stability"
+	dodirection(integer) : "Direction Based Propulsion" : 0 : "Will the player be pushed depending on the slant of the jumppad? (unstable)"
+	customdirection(integer) : "Custom Direction" : 0 : "Required for setting the values below"
+	dirx(integer) : "Vector X" : 0 : "Custom Direction X"
+	diry(integer) : "Vector Y" : 0 : "Custom Direction Y"
+	dirz(integer) : "Vector Z" : 0 : "Custom Direction Z"
+]
+@PointClass base( Targetname ) studio( "models/props_c17/consolebox01a.mdl" ) = garena_teleporter
+[
+	selfid(integer) : "Self ID" : 0 : "The ID of this teleporter"
+	destinationid(integer) : "Destination ID" : 0 : "The ID of the teleporters destination"
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_pistol" ) = garena_pickup_pistol
+[
+
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_smg1" ) = garena_pickup_smg
+[
+
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_irifle" ) = garena_pickup_pulserepeater
+[
+
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_shotgun" ) = garena_pickup_spas24
+[
+
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_rocket_launcher" ) = garena_pickup_rocket
+[
+
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_physics" ) = garena_pickup_grenadelauncher
+[
+
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_toolgun") = garena_pickup_railgun
+[
+]
+@PointClass base( Targetname ) studio( "models/props_junk/plasticbucket001a.mdl" ) = garena_ammo_railgun
+[
+
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_grenade.mdl") = garena_ammo_grenade
+[
+
+]
+@PointClass base( Targetname ) studio( "models/Items/BoxSRounds.mdl") = garena_ammo_pistol
+[
+
+]
+@PointClass base( Targetname ) studio( "models/Items/357ammo.mdl") = garena_ammo_357
+[
+
+]
+@PointClass base( Targetname ) studio( "models/Items/BoxMRounds.mdl") = garena_ammo_smg
+[
+
+]
+@PointClass base( Targetname ) studio( "models/Items/BoxBuckshot.mdl") = garena_ammo_shotgun
+[
+
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_missile_closed.mdl") = garena_ammo_rocket
+[
+
+]
+@PointClass base( Targetname ) studio( "models/Items/combine_rifle_cartridge01.mdl") = garena_ammo_ar2
+[
+
+]
+@PointClass base( Targetname ) studio( "models/Items/CrossbowRounds.mdl") = garena_ammo_crossbow
+[
+
+]
+@PointClass base( Targetname ) studio( "models/healthvial.mdl") = garena_pickup_healthvial
+[
+
+]
+@PointClass base( Targetname ) studio( "models/Items/HealthKit.mdl") = garena_pickup_healthkit
+[
+
+]
+@PointClass base( Targetname ) studio( "models/Items/battery.mdl") = garena_pickup_suitbattery
+[
+
+]
