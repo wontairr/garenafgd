@@ -21,6 +21,12 @@
 [
 
 ]
+@PointClass base( Targetname ) studio( "models/weapons/w_pistol" ) = garena_pickup_custom
+[
+	model(string) : "Model" : "models/weapons/w_pistol" : "The Ingame Model"
+	entity(string) : "Entity to Spawn" : "weapon_pistol" : "The Entity Spawned When Touched"
+	respawntime(integer) : "Respawn Time" : 30 : "How long for the pickup to respawn (in seconds)"
+]
 @PointClass base( Targetname ) studio( "models/weapons/w_smg1" ) = garena_pickup_smg
 [
 
@@ -38,6 +44,14 @@
 
 ]
 @PointClass base( Targetname ) studio( "models/weapons/w_physics" ) = garena_pickup_grenadelauncher
+[
+
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_357" ) = garena_pickup_357
+[
+
+]
+@PointClass base( Targetname ) studio( "models/weapons/w_crossbow" ) = garena_pickup_xbow
 [
 
 ]
